@@ -1,0 +1,12 @@
+Selected headers (PII redacted)
+
+Date: Thu, 4 Sep 2025 07:43:51 -0700 (PDT)
+From: Access Industries <careers.accesslndustries.com@viazohorecruit.com>
+Reply-To: careers@accesslndustries.com
+To: <[redacted]@gmail.com>
+Subject: Application Update for Service Support Engineer
+Return-Path: noreply+...@sender.zohorecruit.com
+Received: from sendera182.zohorecruit.com (135.84.80.182) by mx.google.com ...
+Authentication-Results: dkim=pass (viazohorecruit.com); spf=pass (sender.zohorecruit.com); dmarc=pass (viazohorecruit.com)
+X-Report-Abuse: abuse+2d6f.390d3f0...@zeptomail.com
+Message-ID: <2d6f.390d3f0.m1.925e26c0-899d-11f0-bfcd-5254001dc20d.199152f132c@sender.zohorecruit.com>
