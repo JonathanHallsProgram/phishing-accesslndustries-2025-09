@@ -1,0 +1,7 @@
+type,value,first_seen,last_seen,source,notes
+domain,accesslndustries.com,2025-09-04,,Email header/body,Typosquat of accessindustries.com (L->I)
+email,careers@accesslndustries.com,2025-09-04,,Email Reply-To,Look-alike domain
+email,noreply+...@sender.zohorecruit.com,2025-09-04,,Email return-path,Zoho Recruit envelope sender (masked)
+ip,135.84.80.182,2025-09-04,,Email Received header,sendera182.zohorecruit.com
+ip,34.174.238.249,2025-09-04,,Open-source check,Related IP (user-provided; treat as unverified)
+file_sha256,ff5b63bafd583525ff2b9e48a16717de3b5d30f67792c6f6de52c6c2a6b14899,2025-09-04,,Open-source check,Alias 'Amir Virus' (unverified)
