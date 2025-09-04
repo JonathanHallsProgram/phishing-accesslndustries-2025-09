@@ -1,0 +1,55 @@
+{
+  "type": "bundle",
+  "id": "bundle--690bc73e-54e4-47d5-bef8-f0714f7d61e6",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fa63645e-33a5-4a1d-91d8-db0dc6be6c5e",
+      "created": "2025-09-04T12:00:00Z",
+      "modified": "2025-09-04T12:00:00Z",
+      "name": "Typosquat domain accesslndustries[.]com",
+      "description": "Look\u2011alike of accessindustries.com (L vs I) used in phishing.",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'accesslndustries.com']",
+      "valid_from": "2025-09-04T12:00:00Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fea4c51d-c1ec-44f0-96d6-714e385de24b",
+      "created": "2025-09-04T12:00:01Z",
+      "modified": "2025-09-04T12:00:01Z",
+      "name": "SMTP sender IP (Zoho Recruit)",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '135.84.80.182']",
+      "valid_from": "2025-09-04T12:00:01Z",
+      "description": "Observed in 'Received' header (sendera182.zohorecruit.com)."
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--108a92cc-ad44-497d-95e2-e8ed3657dabc",
+      "created": "2025-09-04T12:00:02Z",
+      "modified": "2025-09-04T12:00:02Z",
+      "name": "Related IP (unverified OSINT)",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '34.174.238.249']",
+      "valid_from": "2025-09-04T12:00:02Z",
+      "description": "Provided via open-source check; treat as unverified context."
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ba17aad0-09f1-4dc7-9867-c17cd5a66ab6",
+      "created": "2025-09-04T12:00:03Z",
+      "modified": "2025-09-04T12:00:03Z",
+      "name": "Related file hash (Amir Virus) \u2014 unverified",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'ff5b63bafd583525ff2b9e48a16717de3b5d30f67792c6f6de52c6c2a6b14899']",
+      "valid_from": "2025-09-04T12:00:03Z",
+      "description": "Alias 'Amir Virus' seen in OSINT; not directly observed in the email."
+    }
+  ],
+  "spec_version": "2.1"
+}
