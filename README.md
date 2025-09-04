@@ -27,7 +27,7 @@ This repo documents a phishing email impersonating **Access Industries** using t
 
 ## IOCs
 
-See [`/iocs/indicators.csv`](iocs/indicators.csv) and STIX 2.1 bundle [`/iocs/stix2.json`](iocs/stix2.json).
+See [`/IOCs/indicators.csv`](IOCs/indicators.csv) and STIX 2.1 bundle [`/IOCs/stix2.json`](IOCs/stix2.json).
 
 ## Timeline
 
